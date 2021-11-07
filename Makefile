@@ -16,7 +16,7 @@ update-deps:
 clean-deps:
 	rm -fr vendor
 
-build: check_go_version
+build:
 	go build -o bin/audit2rbac $(shell ./build/print-ldflags.sh) ./cmd/audit2rbac
 
 build-cross: check_go_version

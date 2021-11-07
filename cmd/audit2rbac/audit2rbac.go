@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/liggitt/audit2rbac/pkg"
+	"github.com/qhua948/audit2rbac/pkg"
 	"github.com/spf13/cobra"
 
 	rbacv1 "k8s.io/api/rbac/v1"
